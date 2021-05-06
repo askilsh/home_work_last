@@ -13,6 +13,16 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
 
+    implementation group: 'org.junit.jupiter', name: 'junit-jupiter', version: '5.7.0'
+
+    implementation 'org.hibernate:hibernate-core:5.2.6.Final'
+
+    implementation group: 'postgresql', name: 'postgresql', version: '9.1-901-1.jdbc4'
+
+    implementation 'com.squareup.okhttp3:okhttp:3.14.6'
+
+    implementation "jakarta.xml.bind:jakarta.xml.bind-api:2.3.2"
+    implementation "org.glassfish.jaxb:jaxb-runtime:2.3.2"
 
     //database
     implementation 'com.h2database:h2:1.4.194'
